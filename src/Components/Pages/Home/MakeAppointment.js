@@ -11,7 +11,7 @@ const Appointment = () => {
         }}
          className='flex justify-center items-center my-40 rounded-xl'>
             <div className='flex-1'>
-                <img className='mt-[-150px]' src={doctor} alt="" />
+                <img className='mt-[-150px] hidden lg:block' src={doctor} alt="" />
             </div>
             <div className='flex-1'>
                 <h3 className='font-bold text-primary text-xl my-6'>Appointment</h3>

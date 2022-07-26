@@ -11,7 +11,7 @@ const Footer = () => {
         backgroundSize: 'cover',
     }}
 
-    className="my-40">
+    className=" px-10 py-20">
       <div class="footer p-10  text-neutral-content">
         <div>
           <span class="footer-title font-bold text-lg">SERVICES</span>
@@ -31,7 +31,7 @@ const Footer = () => {
           <a class="link link-hover">New York - 101010 Hudson</a>
         </div>
       </div>
-      <p className="text-center text-accent font-semibold text-2xl">Copyright © 2022 - All right reserved.</p>
+      <p className="text-center text-accent text-xl">Copyright © 2022 - All right reserved.</p>
     </footer>
   );
 };
