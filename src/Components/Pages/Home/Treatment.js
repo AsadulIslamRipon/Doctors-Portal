@@ -4,7 +4,7 @@ import PrimaryButton from "../Shared/PrimaryButton";
 
 const Treatment = () => {
   return (
-    <div className="my-40 flex justify-center items-center">
+    <div className="my-40 flex flex-col lg:flex-row justify-center items-center">
         <div className="flex-1">
           <img className="w-9/12 rounded-2xl"  src={treatment} alt="Treatment" />
 
